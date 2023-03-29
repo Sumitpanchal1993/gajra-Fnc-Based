@@ -1,0 +1,22 @@
+.footerbase{
+    background-color: rgba(5, 40, 60, 0.7);
+    /* width: 100vw; */
+    color:  white;
+
+}
+
+.addressstrip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .addressstrip{
+        display: block;
+        padding: 10px;
+    }    
+}
